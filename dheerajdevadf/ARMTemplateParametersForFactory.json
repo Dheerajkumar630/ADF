@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dheerajdevadf"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://dheerajdeltalakesource.dfs.core.windows.net"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_tenant": {
+			"value": "7e981f09-7653-46a3-9089-57f571d7ec3f"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_servicePrincipalId": {
+			"value": "b4f7e374-c17e-4aa5-a9f0-8cd09db1bacc"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://dheerajdeltalakedev.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_tenant": {
+			"value": "7e981f09-7653-46a3-9089-57f571d7ec3f"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_servicePrincipalId": {
+			"value": "b4f7e374-c17e-4aa5-a9f0-8cd09db1bacc"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://dheerajkeyvault.vault.azure.net/"
+		},
+		"AzureSqlDatabase_Source_properties_typeProperties_server": {
+			"value": "dheerajdev.database.windows.net"
+		},
+		"AzureSqlDatabase_Source_properties_typeProperties_database": {
+			"value": "dheerajsource"
+		},
+		"AzureSqlDatabase_Source_properties_typeProperties_userName": {
+			"value": "dheeraj"
+		},
+		"RestService_properties_typeProperties_url": {
+			"value": "https://airlabs.co/api/v9/airlines"
+		}
+	}
+}
