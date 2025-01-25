@@ -1,0 +1,23 @@
+{
+	"name": "AzureSqlDatabase_sink",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "dheerajdev.database.windows.net",
+			"database": "dheerajsource",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "dheeraj",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Sqlpassword"
+			}
+		}
+	}
+}
