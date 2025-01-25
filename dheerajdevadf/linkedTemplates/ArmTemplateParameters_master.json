@@ -38,6 +38,15 @@
 		"RestService_properties_typeProperties_url": {
 			"value": "https://airlabs.co/api/v9/airlines"
 		},
+		"AzureSqlDatabase_sink_properties_typeProperties_server": {
+			"value": "dheerajdev.database.windows.net"
+		},
+		"AzureSqlDatabase_sink_properties_typeProperties_database": {
+			"value": "dheerajsource"
+		},
+		"AzureSqlDatabase_sink_properties_typeProperties_userName": {
+			"value": "dheeraj"
+		},
 		"containerUri": {
 			"value": ""
 		},
