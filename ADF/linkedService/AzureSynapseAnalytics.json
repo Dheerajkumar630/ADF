@@ -1,0 +1,23 @@
+{
+	"name": "AzureSynapseAnalytics",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"server": "dheerajdev.database.windows.net",
+			"database": "dheeraj123",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "dheeraj",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Sqlpassword"
+			}
+		}
+	}
+}
