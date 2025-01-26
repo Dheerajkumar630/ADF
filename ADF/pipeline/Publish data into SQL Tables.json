@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Publish data into SQL Tables",
 	"properties": {
 		"activities": [
 			{

@@ -1,0 +1,36 @@
+{
+	"name": "Refresh_Databricks_Notebook",
+	"properties": {
+		"activities": [
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/veera.sap77@gmail.com/Databricks/Dheeraj/Notebooks_run",
+					"baseParameters": {
+						"Layer_Name": "Raw"
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"parameters": {
+			"Layer_Name": {
+				"type": "string"
+			}
+		},
+		"annotations": []
+	}
+}
