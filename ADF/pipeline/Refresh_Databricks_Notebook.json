@@ -17,7 +17,10 @@
 				"typeProperties": {
 					"notebookPath": "/Users/veera.sap77@gmail.com/Databricks/Dheeraj/Notebooks_run",
 					"baseParameters": {
-						"Layer_Name": "Raw"
+						"Layer_Name": {
+							"value": "@pipeline().parameters.Layer_Name",
+							"type": "Expression"
+						}
 					}
 				},
 				"linkedServiceName": {

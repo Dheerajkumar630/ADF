@@ -75,9 +75,8 @@
 									}
 								},
 								"sink": {
-									"type": "AzureSqlSink",
-									"writeBehavior": "insert",
-									"sqlWriterUseTableLock": false,
+									"type": "SqlDWSink",
+									"allowCopyCommand": true,
 									"tableOption": "autoCreate",
 									"disableMetricsCollection": false
 								},
@@ -104,10 +103,10 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "AzureSqlTable_source",
+									"referenceName": "AzureSynapseAnalyticsTable",
 									"type": "DatasetReference",
 									"parameters": {
-										"tablename": {
+										"table_name": {
 											"value": "@item().publish_table_name",
 											"type": "Expression"
 										}
