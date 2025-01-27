@@ -23,6 +23,9 @@
 		"AzureDataLakeStorage2_properties_typeProperties_servicePrincipalId": {
 			"value": "b4f7e374-c17e-4aa5-a9f0-8cd09db1bacc"
 		},
+		"AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "0123-101643-jesvlt16"
+		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://dheerajkeyvault.vault.azure.net/"
 		},
@@ -35,9 +38,6 @@
 		"AzureSqlDatabase_Source_properties_typeProperties_userName": {
 			"value": "dheeraj"
 		},
-		"RestService_properties_typeProperties_url": {
-			"value": "https://airlabs.co/api/v9/airlines"
-		},
 		"AzureSqlDatabase_sink_properties_typeProperties_server": {
 			"value": "dheerajdev.database.windows.net"
 		},
@@ -46,6 +46,18 @@
 		},
 		"AzureSqlDatabase_sink_properties_typeProperties_userName": {
 			"value": "dheeraj"
+		},
+		"AzureSynapseAnalytics_properties_typeProperties_server": {
+			"value": "dheerajdev.database.windows.net"
+		},
+		"AzureSynapseAnalytics_properties_typeProperties_database": {
+			"value": "dheeraj123"
+		},
+		"AzureSynapseAnalytics_properties_typeProperties_userName": {
+			"value": "dheeraj"
+		},
+		"RestService_properties_typeProperties_url": {
+			"value": "https://airlabs.co/api/v9/airlines"
 		}
 	}
 }
